@@ -1,0 +1,304 @@
+body {
+    background-color: #444;
+    color: #D6DBDF;
+    padding: 20px;
+    margin: 0;
+    font-size: 16px;
+}
+pre span{
+    font-size: 18px;
+}
+tspan{
+    font-size: 16px;
+}
+text.actor{
+    font-size: 22px;
+}
+
+.labelText{
+    fill: #e83737;
+}
+
+.loopText{
+    fill: rgb(48, 193, 48);
+}
+pre{
+    position: relative;
+    border: none !important;
+    background-color: #333;
+    margin: 0 !important;
+    padding: 8px 0 !important;
+    border-radius: 5px;
+}
+pre.prettyprint{
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1) inset, 45px 0 0 rgba(0, 0, 0, 0.25) inset, 0 1px 0 #333;
+}
+
+pre.prettyprint li{
+    padding-left: 15px;
+}
+
+ol {
+    color: #ccc;
+    
+}
+
+
+/*table {
+    border-collapse: collapse;
+    margin: 10p
+}
+
+th {
+    padding: 6px;
+    text-align: left;
+    vertical-align: top;
+    color: #333;
+    border: 1px solid #b9b9b9;
+}
+
+td {
+    padding: 6px;
+    border: 1px solid #b9b9b9;
+}*/
+
+.mermaid {
+    margin-left: 10px;
+    margin-right: auto;
+}
+
+.copy{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.error{
+    color: #f00;
+}
+
+
+
+
+.table tbody>tr:nth-child(2n+1)>td, .table tbody>tr:nth-child(2n+1)>th {
+    background-color: #333;
+}
+
+.table-bordered {
+    border: 1px solid #ddd;
+    border-collapse: separate;
+    border-left: 0;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+.table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+table {
+    max-width: 100%;
+    background-color: transparent;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.table-bordered th, .table-bordered td {
+    border-left: 1px solid #ddd;
+}
+
+.table th, .table td {
+    padding: 8px;
+    line-height: 20px;
+    text-align: left;
+    vertical-align: top;
+    border-top: 1px solid #ddd;
+}
+
+
+
+.jsmind{
+    /*width:800px;
+    height:500px;
+    border:solid 1px #ccc;
+    background:#f4f4f4;*/
+    background-color: #333;
+    border-radius: 5px;
+}
+
+
+.node circle {
+    cursor: pointer;
+    fill: #fff;
+    stroke: steelblue;
+    stroke-width: 2px;
+  }
+
+  .node text {
+    font-size: 16px;
+    fill: rgb(48, 193, 48);
+    /*font-family: "FontAwesome";*/
+  }
+
+  .node_icon{
+      font-family: "FontAwesome" !important;
+      pointer-events: none;
+      fill: #f00 !important;
+  }
+
+  .link {
+    fill: none;
+    stroke: #999;
+    stroke-width: 1px;
+  }
+
+  h2, h3, h4, h5, h6{
+      color: #07f4f7;
+  }
+
+   .home{
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background-color: #f00;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 0.5rem;
+        }
+        .bottom_icons{
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            font-size: 2rem;
+        }
+
+        .bottom_icons ul{
+            list-style: none;
+            border: 1px solid #ccc;
+            padding: 0 8px;
+            text-align: center;
+            background-color: #323d47;
+            color: #ccc;
+            margin: 0;
+        }
+
+        .bottom_icons li{
+            cursor: pointer;
+            border-bottom: 1px solid #ccc;
+            padding: 0.5rem 0;
+        }
+
+        .bottom_icons a{
+            color: #ccc;
+        }
+
+        .bottom_icons li:last-child{
+            border-bottom: none;
+        }
+
+
+        .menu_btn{
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            font-size: 1.5rem;
+            cursor: pointer;
+            z-index: 101;
+        }
+
+        .menu_div{
+            position: fixed;
+            top: 3rem;
+            right: 1rem;
+            z-index: 100;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            max-height: 80%;
+            overflow-y: auto;
+        }
+
+        ul#menuUl{
+            list-style: none;
+            padding: 10px;
+            background-color: #333;
+            border-radius: 5px;
+            margin: 0;
+            position: relative;
+            z-index: 100;
+        }
+
+        ul#menuUl li{
+            margin: 0.5rem 0;
+            z-index: 100;
+            position: relative;
+        }
+
+         ul#menuUl a{
+             color: #fff !important;
+        }
+
+        .hide{
+            display: none !important;
+        }
+
+        .menu2{
+            padding-left: 0;
+        }
+
+        .menu3{
+            padding-left: 1rem;
+        }
+
+        .menu4{
+            padding-left: 2rem;
+        }
+
+        .mask{
+            position: fixed;
+            z-index: 99;
+            background-color: #000;
+            width: 100%;
+            height: 100%;
+            opacity: 0.7;
+            top: 0;
+            left: 0;
+        }
+
+        a{
+            color: #fff !important;
+        }
+
+        .qrcode{
+            width: 40%;
+            max-width: 256px;
+            position: relative;
+            background-color: #333;
+            border-radius: 0.5rem;
+            padding: 0.5rem;
+        }
+
+        .qrcode canvas{
+            width: 100%;
+            position: relative;
+        }
+
+/*
+.edgePath > marker > path{
+    fill: #f00;
+}*/
+
+
+.edgePath marker{
+    markerWidth: 20px;
+}
+
+.edgePath marker>path{
+    fill: #fff !important;
+}
+
+.cluster text{
+    fill: #1ce65a;
+    font-size: 24px;
+    transform: translate(0, 5px);
+}
