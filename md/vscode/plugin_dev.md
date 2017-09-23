@@ -1,4 +1,4 @@
-# vscode 插件开发基础
+# EgretWing 插件开发基础
 ### 开发笔记
 1. 安装 yo
 ```sh
@@ -19,4 +19,4 @@ yo code
 2. extension.js require() 依赖的 js 库在 node_modules 里面，没有的也不会报错，这样会不知道什么原因导致。（找了半天）
 
 ### mac 路径
-/Users/scutterry/Library/Application\ Support/EgretWing/User/extensions
+/Users/username/Library/Application\ Support/EgretWing/User/extensions
