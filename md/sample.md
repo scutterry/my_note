@@ -1,8 +1,10 @@
-# Markdown 示例 
+# 争强型 Markdown 示例 
+主要是时序图和流程图使用的是 mermaid
 ### mind map
+todo 格式完善
 ```jsmind
 {
-    "name":"三公",
+    "name":"app",
     "children":
     [
         { 
@@ -115,6 +117,7 @@ i am a test
 
 
 ### 合并表格
+todo 使用 vscode 插件编辑表格
 <table class="table table-bordered">
 
  <tr><td>登录/注册</td><td>签到前置条件，需要对接奥飞通行证</td></tr>

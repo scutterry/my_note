@@ -31,17 +31,31 @@
 </head>
 <body>
     <h1>我的笔记</h1>
+    <p>增强型 MD 笔记</p>
 
     <div id="content">
-        <div>
-            <a href="./md.html?md=./md/sample.md">示例</a>
-        </div>
+        <!--<div> <a href="./md.html?md=./md/sample.md">示例</a> </div>
      
         <div>
             <a href="./md.html?md=./md/vscode/plugin_dev.md">vscode 插件开发经验</a>
         </div>
-     
+     -->
         
     </div>
+    <script src="menu.js"></script>
+    <script src="js/jquery/jquery.min.js"></script>
+    <script>
+        var linkTemp = '<div> <a href="./md.html?md=./{url}">{name}</a> </div>';
+        $(document).ready(function(){
+            var contentDiv = $("#content");
+            contentDiv.html("");
+            for(var key in menuJson.data){
+                var tmp = menuJson.data[key];
+                var link = linkTemp.replace(/\{name\}/g, tmp.name);
+                link = link.replace(/\{url\}/g, tmp.url);
+                contentDiv.append($(link));
+            }
+        });
+    </script>
 </body>
 </html>
